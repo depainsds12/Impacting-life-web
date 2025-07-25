@@ -60,7 +60,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <nav className="bg-primary text-white w-full">
+            <nav className="bg-primary text-white w-full px-8 hidden lg:block">
                 <div className="max-w-(--layout-width) mx-auto flex justify-between items-center py-3">
                     <div className="flex space-x-8 text-xl font-medium">
                         <Link to="/" className="hover:underline">For Individuals</Link>

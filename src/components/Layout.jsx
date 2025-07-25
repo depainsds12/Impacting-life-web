@@ -7,7 +7,7 @@ function Layout({ children }) {
       <div className="flex flex-col flex-1">
         <Header />
 
-        <main className="flex-1 py-4 px-8 max-w-(--layout-width)">
+        <main className="flex-1">
           {children}
         </main>
 

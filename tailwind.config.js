@@ -16,10 +16,7 @@ export default {
       },
       maxWidth: {
         layout: 'var(--layout-width)',
-      },
-      fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-      },
+      }
     },
   },
   plugins: [],

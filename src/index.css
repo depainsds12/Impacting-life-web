@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @import "tailwindcss";
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @theme {
 	--color-primary: #2e8b57;
@@ -11,9 +12,41 @@
 	--color-light: #f8f8f8;
 	--color-light2: #f0f4f8;
 
-	--layout-width: 1390px;
+	--layout-width: 1350px;
 }
 
 body {
-	@apply font-sans;
+	font-family: 'Poppins', sans-serif;
   }
+
+p {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: #1A1A1A;
+}
+
+.slick-slide > div {
+	display: flex;
+	height: 100%;
+  }
+  
+  .slick-track {
+	display: flex !important;
+  }
+  
+  .slick-slide {
+	height: auto !important;
+	margin-bottom: 10px;
+  }
+  
+
+@layer base {
+	.h1_title {
+		@apply font-bold text-[34px] leading-[50px] lg:text-[50px] lg:leading-[60px];
+	}
+
+	.section_padding {
+		@apply max-w-(--layout-width) py-6 lg:py-14 mx-auto;
+	}
+}
