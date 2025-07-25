@@ -10,7 +10,12 @@ const CTA = () => {
                     <p style={{ color: 'white' }}>Take our free career assessment to discover your ideal path — then start building in-demand skills with courses from just £19.99.</p>
                     <div className="flex gap-4 flex-col lg:flex-row">
                         <FilledButton onClickFun={() => { }} text={"Take Free Career Assessment"} classForBtn={"w-full lg:w-fit"} />
-                        <div onClick={() => { }} className="text-white w-full lg:w-fit text-center border cursor-pointer border-white font-medium text-xl rounded-lg py-3 px-4 bg-primary">Browse Courses</div>
+                        <div
+                            onClick={() => { }}
+                            className="text-white text-center border bg-primary cursor-pointer border-white font-medium text-xl rounded-lg py-3 px-4 transition-all duration-300 ease-in-out hover:text-accent hover:border-accent hover:scale-[1.02] active:scale-95"
+                        >
+                            Browse Courses
+                        </div>
                     </div>
                 </div>
                 <img src="/img/ctaImage.svg" alt="user" className="h-[300px] mt-4 lg:mt-0" />
